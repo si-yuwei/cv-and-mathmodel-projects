@@ -1,0 +1,53 @@
+# Python 缓存与环境
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+pylibs/
+
+# 密钥与敏感配置（含明文 API Key，禁止入库）
+.env
+*.key
+*.pem
+*.p12
+config.toml
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# 模型权重
+*.pth
+*.pt
+*.onnx
+*.bin
+*.safetensors
+*.h5
+*.ckpt
+
+# 数据集与大体积产物
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.tar.gz
+
+# 图表与结果（按需手动保留，默认不跟踪）
+figures/
+results/
+output/
+
+# 临时与日志
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
